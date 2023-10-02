@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #  pull docker image
 docker pull yash6370/simple-flask-app
