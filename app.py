@@ -8,7 +8,12 @@ def hello():
     return 'Hello, world!'
 
 
-@app.route('/api/v1/test')
+@app.route('/api/v1/test1')
+def test():
+    return 'code change to test pipeline build'
+
+
+@app.route('/api/v1/test2')
 def test():
     return 'code change to test pipeline build'
 
